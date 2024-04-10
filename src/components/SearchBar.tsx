@@ -40,11 +40,12 @@ const search = () => {
                 }}
                  ref={inputRef} className="absolute inset-0 h-full" />
 
-<Button 
+<Button
+    disabled={isSearching}
     size="lg"
     onClick={search}
     className="absolute right-0 inset-y-0 h-full rounded-1-none">
-        <Search className="h-6 w-6"/>
+        {isSearching ? <Loader2 className="h-6 w-6 animate-spin" /> : <Search className="h-6 w-6" /> }
 </Button>
             </div>
 

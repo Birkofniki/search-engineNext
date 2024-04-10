@@ -37,3 +37,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 JUST OTHER STUFF:
 How to install search button..use shadcn ; i.e npx shadcn-ui@latest add button
+
+- used the neon.tech postgres db provider..https://console.neon.tech/app/projects/floral-brook-39559500
+
+= to interact with the database, i used drizzle orm, installed through npm install drizzle-orm,
+and also installed -D drizzle kit...via npm install -D drizzle-kit //allows one to locally host a studio for development e.g delete, modify, edit...etc.

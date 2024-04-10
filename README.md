@@ -35,10 +35,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-JUST OTHER STUFF:
+## JUST OTHER STUFF:
+
 How to install search button..use shadcn ; i.e npx shadcn-ui@latest add button
+
+## db
 
 - used the neon.tech postgres db provider..https://console.neon.tech/app/projects/floral-brook-39559500
 
+## interract with db
+
 = to interact with the database, i used drizzle orm, installed through npm install drizzle-orm,
 and also installed -D drizzle kit...via npm install -D drizzle-kit //allows one to locally host a studio for development e.g delete, modify, edit...etc.
+
+## on index.ts
+
+= on index.ts const connector, we added neon db by "npm install @neondatabase/serverless"
